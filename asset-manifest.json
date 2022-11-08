@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/designbytheocean/static/css/main.97707734.css",
+    "main.js": "/designbytheocean/static/js/main.1d32e547.js",
+    "static/media/wavevideo.mp4": "/designbytheocean/static/media/wavevideo.e8faff64fae97ec5ebdb.mp4",
+    "static/media/headerphoto.jpg": "/designbytheocean/static/media/headerphoto.3a4e21c8d5d79e5215dd.jpg",
+    "static/media/brasstable.jpg": "/designbytheocean/static/media/brasstable.790916ed4e9941ca3e91.jpg",
+    "static/media/leatherapronworking2.jpg": "/designbytheocean/static/media/leatherapronworking2.51b7d565b1955e0594bf.jpg",
+    "static/media/stool.jpg": "/designbytheocean/static/media/stool.0cb26cef530cce878972.jpg",
+    "static/media/halltablewithwine.jpg": "/designbytheocean/static/media/halltablewithwine.2a0f12e7b77962d20527.jpg",
+    "static/media/chaironbeach.jpg": "/designbytheocean/static/media/chaironbeach.69feead2247e29becbec.jpg",
+    "static/media/leatherapronworking.jpg": "/designbytheocean/static/media/leatherapronworking.5f0874be38cd1afa33e1.jpg",
+    "static/media/canechair.jpg": "/designbytheocean/static/media/canechair.6d9952f5edd39b9e2f82.jpg",
+    "static/media/tablewithchairs.jpg": "/designbytheocean/static/media/tablewithchairs.d1d6b8360d03847c74e9.jpg",
+    "static/media/coffeetable.jpg": "/designbytheocean/static/media/coffeetable.7af6eab9b13b84c7acd6.jpg",
+    "static/media/rockingchair.jpg": "/designbytheocean/static/media/rockingchair.d5e487c6a87a001f3d6d.jpg",
+    "static/media/foldingchair.jpg": "/designbytheocean/static/media/foldingchair.514479454331baee8f64.jpg",
+    "static/media/leatherchair.jpg": "/designbytheocean/static/media/leatherchair.dd338147e6bee13e949b.jpg",
+    "static/media/foldingchairwiththrow.jpg": "/designbytheocean/static/media/foldingchairwiththrow.c29a45b7cc6da3e7de63.jpg",
+    "static/media/japandichair.jpg": "/designbytheocean/static/media/japandichair.e25d9c6ae0bac0b3f5f7.jpg",
+    "static/media/merchshirt.jpg": "/designbytheocean/static/media/merchshirt.df5c2c7876558d32e378.jpg",
+    "static/media/aboutmephoto.jpeg": "/designbytheocean/static/media/aboutmephoto.ef4304a6a916ae50dc96.jpeg",
+    "static/media/merchcap.jpg": "/designbytheocean/static/media/merchcap.e63027f249a2c09497e0.jpg",
+    "static/media/designbyoceanlogo-light.png": "/designbytheocean/static/media/designbyoceanlogo-light.7d7e4ef9c61d13fc6465.png",
+    "index.html": "/designbytheocean/index.html",
+    "main.97707734.css.map": "/designbytheocean/static/css/main.97707734.css.map",
+    "main.1d32e547.js.map": "/designbytheocean/static/js/main.1d32e547.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97707734.css",
+    "static/js/main.1d32e547.js"
+  ]
+}
