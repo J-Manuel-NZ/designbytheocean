@@ -1,0 +1,71 @@
+.dbo__storetile {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+}
+
+.dbo__storetile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    height: 100%;
+    align-items: flex-start;
+
+}
+.dbo__storetile-container h4 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    
+    color: var(--color-dark_text);
+
+    margin: 0.5rem 0;
+    
+}
+
+.dbo__storetile-container_image {
+    height: 100%;
+    
+} 
+
+.dbo__storetile-container_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.dbo__storetile-container_button-container {
+    width: 100%;
+    margin: 1rem 0 0 0;
+    background: var(--color-accent);
+    
+    border-radius: 5px;
+}
+
+.dbo__storetile-container_button-container:hover {
+    opacity: .8;
+}
+
+.dbo__storetile-container_button-container:active {
+    opacity:.6;
+}
+.dbo__storetile-container_button-container button {
+    border-style: none;
+    background:transparent;
+
+    width: 100%;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 3em;
+    line-height: 1.6em;
+
+    color: var(--color-light_text);
+    
+
+    
+}

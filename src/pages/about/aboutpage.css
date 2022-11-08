@@ -1,0 +1,174 @@
+.dbo__aboutpage .dbo__navbar {
+    background-color: var(--color-dominant);
+}
+
+.dbo__aboutpage-container {
+    display: flex;
+    margin: 4rem 10%;
+    width: 80%;
+    align-items: center;
+    contain: content;
+    overflow-y: hidden;
+    margin-bottom: 20rem;
+    position: relative;
+    
+}
+
+.test {
+    display: flex;
+    flex-direction: row;
+    contain: content;
+
+}
+
+.dbo__aboutpage-container_image {
+    width: 100%;
+    flex: 1;
+    
+}
+.dbo__aboutpage-container_image img {
+    width: inherit;
+    height: 100% ;
+    
+}
+.dbo__aboutpage-container_content {
+    flex: 1;
+    display: block;
+    flex-direction: column;
+    padding: 5rem;
+    padding-bottom: 0;
+    background-color: var(--color-light_text);
+    border-radius: 0 5px 5px 0 ;
+    width: 100%;
+    height: inherit;
+    position: relative;
+    
+    
+}
+.dbo__aboutpage-container_content span {
+    font-size: 52px;
+    font-weight: 400;
+
+}
+.dbo__aboutpage-container_content p {
+    font-family: var(--font-family);
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--color-dark_text);
+    align-items: center;
+    font-weight: 300;
+}
+.dbo__aboutpage-container_content-button {
+    display:flex;
+    border: 2px solid var(--color-dark_text);
+    justify-content: center;
+    align-self: left;
+    width: 50%;
+    margin: 10rem 0;
+
+}
+.dbo__aboutpage-container_content-button button {
+    border-style: none;
+    background-color: transparent;
+    padding: 1rem;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--color-dark_text);
+    
+}
+
+
+
+@media screen and (max-width: 1020px) {
+    .dbo__aboutpage-container_content {
+        padding-top: 2rem;
+    }
+    .dbo__aboutpage-container_content p {
+        
+        font-size: 2vh;
+        line-height: 3vh;
+        
+    }
+
+    .dbo__aboutpage-container_content span {
+        font-size: 20px;
+    
+    }
+
+    .dbo__aboutpage-container_content-button button {
+        border-style: none;
+        background-color: transparent;
+    
+        font-size: 16px;
+        line-height: 28px;
+        color: var(--color-dark_text);
+        
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .dbo__aboutpage-container_content {
+        padding: 1.2rem;
+    }
+    .dbo__aboutpage-container_content p {
+        
+        font-size: 1.4vh;
+        line-height: 2.1vh;
+        
+    }
+
+    .dbo__aboutpage-container_content span {
+        font-size: 16px;
+    
+    }
+
+    .dbo__aboutpage-container_content-button button {
+        border-style: none;
+        background-color: transparent;
+    
+        font-size: 14px;
+        line-height: 26px;
+        color: var(--color-dark_text);
+        
+    }
+
+    .dbo__aboutpage-container_content-button {
+        
+        width: 70%;
+        margin: .5rem 0;
+    
+    }
+}
+
+@media screen and (max-width: 491px) {
+    .dbo__aboutpage-container_content {
+        padding: .4rem;
+    }
+    .dbo__aboutpage-container_content p {
+        
+        font-size: 1vh;
+        line-height: 2vh;
+        
+    }
+
+    .dbo__aboutpage-container_content span {
+        font-size: 12px;
+    
+    }
+
+    .dbo__aboutpage-container_content-button button {
+        
+    
+        font-size: 10px;
+        line-height: 23px;
+        color: var(--color-dark_text);
+        
+    }
+
+    .dbo__aboutpage-container_content-button {
+        
+        width: 70%;
+        margin: .5rem 0;
+    
+    }
+}

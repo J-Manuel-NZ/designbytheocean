@@ -1,0 +1,117 @@
+.menu-item-selected {
+    color: var(--color-accent);
+}
+
+.dbo__navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(8,10,13,.2);
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.dbo__navbar-logo {
+    display: flex;
+    height: 106.73px;
+    width: 103.68px;
+    padding-left: 1.5rem;
+    margin-right: 4rem;
+    position: absolute;
+    top: 0;
+}
+
+.dbo__navbar-links {
+    display: flex;
+    flex: 1;
+    justify-content: center;    
+}
+
+.dbo__navbar-links ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dbo__navbar-links li {
+    list-style: none;
+    color: var(--color-light_text);
+    padding: 2rem;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 44px;
+}
+
+.dbo__navbar-links li:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.dbo__navbar-menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+    margin-right: 3rem;
+    z-index: 1
+}
+
+.dbo__navbar-menu svg {
+    cursor: pointer;
+    z-index: 2;
+}
+
+.dbo__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: start;
+    background: rgba(8,10,13,.5);
+    padding: .2rem 1rem;
+    position: absolute;
+    top: -20px;
+    right: -5px;
+
+    margin-top: 1rem;
+    min-width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(8,10,13,.3);
+}
+
+.dbo__navbar-menu_container li {
+    margin: 1rem 0;
+    list-style: none;
+    color: var(--color-light_text);
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 44px;
+    margin: 0;
+}
+
+
+
+@media screen and (max-width:1008px) {
+    .dbo__navbar-links li {
+        font-size: 22px;
+        line-height: 30px;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .dbo__navbar-links {
+        display: none;
+    }
+
+    .dbo__navbar-menu {
+        display: flex;
+    }
+}
+
+

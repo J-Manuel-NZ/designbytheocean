@@ -1,0 +1,100 @@
+
+/* Sub-Menu */
+.dbo__store-page_menu {
+    margin-left: 10%;
+    margin-top: 2rem;
+}
+.dbo__store-page_menu-list {
+    list-style: none;
+    display: flex;
+}
+.dbo__store-page_menu-list_item {
+    color: var(--color-dark_text);
+    padding: 2rem;
+    padding-left: 0;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: -7%;
+    align-self: flex-start;
+}
+
+
+
+
+.dbo__store-page_furniture .dbo__navbar {
+    background-color: var(--color-dominant);
+}
+
+.dbo__store-page_furniture {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.dbo__store-page_furniture-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(19rem, .8fr));
+    gap: 2rem;
+    margin: 5%;
+    margin-bottom: 10%;
+    
+}
+
+.dbo__store-page_furniture-grid .dbo__storetile {
+    margin-bottom: 1rem;
+    min-width: 200px;
+    align-items: center;
+}
+
+.dbo__store-page_furniture-grid .dbo__storetile-container_button-container {
+    margin-top: .2rem;
+}
+
+.dbo__store-page_furniture-grid .dbo__storetile-container_button-container button {
+    font-size: 1.2em;
+    padding: 1rem 0;
+}
+
+.dbo__store-page_furniture-grid .dbo__storetile-container_image {
+    width: 100%;
+}
+
+.dbo__store-page_furniture-grid .dbo__storetile img {
+    height: 200px;
+    width: 100%;
+}
+.dbo__store-page_furniture-grid .dbo__storetile h4 {
+    font-size: 24px;
+}
+
+
+.show-item {
+    display:none;
+}
+
+
+@media screen and (max-width: 920px ) {
+    .dbo__store-page_menu-list_item {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 30px;
+        
+    }
+    
+}
+
+
+@media screen and (max-width: 450px ) {
+    .dbo__store-page_menu-list_item {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 20px;
+        
+    }
+    
+}
+

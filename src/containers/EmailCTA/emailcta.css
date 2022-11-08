@@ -1,0 +1,225 @@
+
+.dbo__emailcta {
+    align-items: center;
+    padding: 8rem 30%;
+    margin-bottom: 15rem;
+}
+
+.dbo__emailcta-container {
+    padding: 1rem 2rem;
+    background: var(--color-dominant);
+    border-radius: 5px;
+}
+
+/* Message when sumbit button is pressed */
+.dbo__emailcta-container_response {
+    display: none;
+    flex-direction: column;
+
+    align-items: center;
+    justify-items: center;
+    z-index: 999;
+    background: var(--color-dominant);
+    width: 100%;
+    height: 100%;
+    
+    
+    padding: 2rem;
+}
+
+.dbo__emailcta-container_response h4 {
+    font-family: var(--font-family);
+    font-size: 43px;
+    line-height: 46px;
+    color: var(--color-light_text);
+    text-align: center;
+    font-weight: 300;
+}
+
+.dbo__emailcta-container_response button {
+    border-style: none;
+    border: solid 2px var(--color-light_text);
+    background-color: transparent;
+    padding: 1rem;
+    margin: 2rem;
+
+    font-family: var(--font-family);
+    font-size: 34px;
+    line-height: 38px;
+    color: var(--color-light_text);
+    text-align: center;
+    font-weight: 300;
+
+    cursor: pointer;
+}
+
+.dbo__emailcta-container_response button:hover {
+    background-color: var(--color-light_text);
+    color: var(--color-dark_text);
+
+    transition: all .3s ease-in-out;
+}
+.dbo__emailcta-container_response.open {
+    display: flex;
+}
+
+.dbo__emailcta-container_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.dbo__emailcta-container_form.closed {
+    display: none;
+}
+.dbo__emailcta-container_form p {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: var(--color-light_text);
+    padding-bottom: 2rem;
+}
+.dbo__emailcta-container_form input {
+    border-style: none;
+    font-style: italic;
+    font-family: var(--font-family);
+    font-size: 28px;
+    line-height: 36px;
+    color: gray;
+    padding-left: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    
+}
+.dbo__emailcta-container_form textarea {
+    border-style: none;
+    font-style: italic;
+    font-family: var(--font-family);
+    font-size: 28px;
+    line-height: 36px;
+    color: gray;
+    padding-left: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    padding-top: .2rem;
+}
+.dbo__emailcta-container_form button {
+    border: 2px solid var(--color-light_text);
+    background: transparent;
+    font-family: var(--font-family);
+    font-size: 28px;
+    line-height: 36px;
+    color: var(--color-light_text);
+    margin: 1rem;
+    padding: .3rem 0;
+    align-self: center;
+    width: 25%;
+    cursor: pointer;
+}
+.dbo__emailcta-container_form button:hover {
+    background-color: var(--color-light_text);
+    color: var(--color-dark_text);
+
+    transition: all .3s ease-in-out;
+}
+
+
+@media screen and (max-width: 1370px) {
+    .dbo__emailcta-container_form p {
+        font-size: 24px;
+        line-height: 32px;
+        padding-bottom: .2rem;
+    }
+    .dbo__emailcta-container_form input, 
+    .dbo__emailcta-container_form textarea, 
+    .dbo__emailcta-container_form button {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .dbo__emailcta-container_response h4 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    
+    .dbo__emailcta-container_response button {
+        line-height: 34px;  
+        font-size: 30px; 
+        
+    }
+}
+
+@media screen and (max-width: 922px) {
+    .dbo__emailcta-container_form p {
+        font-size: 18px;
+        line-height: 26px;
+        padding-bottom: .2rem;
+    }
+    .dbo__emailcta-container_form input, 
+    .dbo__emailcta-container_form textarea, 
+    .dbo__emailcta-container_form button {
+        font-size: 16px;
+        line-height: 24px;
+        margin: .5rem .2rem;
+    }
+    .dbo__emailcta-container_form button {
+        width: 70px;
+    }
+    .dbo__emailcta-container_response h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .dbo__emailcta-container_response button {
+        line-height: 30px;  
+        font-size: 24px; 
+        
+    }
+}
+
+
+@media screen and (max-width: 906px) {
+    .dbo__emailcta-container {
+        width: 425px;
+        align-self: center;
+    }
+    .dbo__emailcta {
+        
+        padding: 8rem 20%;
+    }
+    
+}
+
+@media screen and (max-width: 665px) {
+    .dbo__emailcta-container {
+        width: 380px;
+        align-self: center;
+    }
+    .dbo__emailcta {
+        
+        padding: 8rem 20%;
+    }
+    
+}
+
+@media screen and (max-width: 588px) {
+    .dbo__emailcta-container {
+        width: 100%;
+        align-self: center;
+    }
+    .dbo__emailcta {
+        
+        padding: 8rem 20%;
+    }
+    .dbo__emailcta-container_response h4 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .dbo__emailcta-container_response button {
+        line-height: 16px;  
+        font-size: 24px; 
+        
+    }
+    
+}

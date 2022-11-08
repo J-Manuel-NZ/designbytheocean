@@ -1,0 +1,46 @@
+.dbo__social {
+    display: flex;
+    
+}
+
+.dbo__social-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15rem 20%;
+}
+
+.dbo__social-container_icon-container {
+    display:flex;
+}
+
+.dbo__social-container_icon-container:hover {
+    scale: 1.05;
+}
+
+.dbo__social-container_icon-container:active {
+    opacity: .8;
+}
+
+.svg-inline--fa {
+    height: 6em;
+    color: var(--color-dark_text)
+}
+
+
+@media screen and (max-width: 1610px) {
+    .svg-inline--fa {
+        height: 4em;
+        color: var(--color-dark_text)
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .svg-inline--fa {
+        height: 2em;
+        color: var(--color-dark_text)
+    }
+    .dbo__social-container {
+        margin: 15rem 10%;
+    }
+}
